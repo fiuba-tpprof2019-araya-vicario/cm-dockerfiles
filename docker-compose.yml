@@ -20,6 +20,8 @@ services:
       - ../node-backend:/usr/src
     links:
      - db:database
+    environment:
+      NODE_ENV: test
   db:
     container_name: postgres-db
     image: postgres:9.6
