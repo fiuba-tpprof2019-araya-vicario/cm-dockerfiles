@@ -50,6 +50,7 @@ Usuarios:
 	Tutor: 
 		get_project
 		edit_tutor_request
+		edit_requirements
 	CC: 
 		get_project
 		approve_projets
@@ -64,3 +65,4 @@ Usuarios:
 		get_users
 		get_profiles
 		edit_profiles
+		edit_requirements
